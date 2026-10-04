@@ -1,0 +1,13 @@
+SOURCE = \
+viscosityModels/viscosityModel/viscosityModel.C \
+viscosityModels/Newtonian/Newtonian.C \
+viscosityModels/CrossPowerLaw/CrossPowerLaw.C \
+viscosityModels/BirdCarreau/BirdCarreau.C \
+viscosityModels/strainRateFunction/strainRateFunction.C \
+viscosityModels/TimeThickening/TimeThickening.C \
+viscosityModels/UVTimeThickening/UVTimeThickening.C \
+transportModel/transportModel.C \
+singlePhaseTransportModel/singlePhaseTransportModel.C \
+incompressibleTwoPhaseMixture/incompressibleTwoPhaseMixture.C \
+
+# sources

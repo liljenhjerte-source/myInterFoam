@@ -1,0 +1,3 @@
+testFvPatchFields.C
+
+LIB = $(FOAM_USER_LIBBIN)/libtest

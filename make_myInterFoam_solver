@@ -1,0 +1,14 @@
+#!/bin/sh
+
+export FOAM_USER_LIBBIN=/home/johannes/JL/OpenFoam/AU_myInterFoam/platforms/linux64GccDPInt32Opt/lib
+export FOAM_APPBIN=/home/johannes/JL/OpenFoam/AU_myInterFoam/applications/solvers/myInterFoam/interMixingFoam
+export FOAM_USER_SRC=/home/johannes/JL/OpenFoam/AU_myInterFoam/src
+export WM_PROJECT_USER_DIR=/home/johannes/JL/OpenFoam/AU_myInterFoam
+
+wmake src/transportModels/incompressible/
+
+wmake src/transportModels/immiscibleIncompressibleTwoPhaseMixture/
+
+wmake applications/solvers/myInterFoam/
+
+#------------------------------------------------------------------------------
